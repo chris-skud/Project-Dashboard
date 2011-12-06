@@ -1,0 +1,349 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	font: 62.5% Verdana, Arial, Helvetica, sans-serif;
+	margin: 2em;
+}
+h1 {
+	color: #036;
+	font-weight: bold;
+	display:block;
+	margin: .15em .15em .15em .15em;
+	padding:0px;
+}
+
+h2 {
+	color: #036;
+	font-weight: bold;
+	display:block;
+	margin: .55em .15em .15em .55em;
+	padding:0px;
+	font-size:1.75em;
+}
+
+h2.doc_link {
+	float: left;
+}
+h3.doc_link {
+	float: right;
+	margin-right: 2em;
+}
+h2 a {
+	color:#C60;
+	font: 105% bold Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+a {
+	color:#C60;
+}
+a:hover {
+	color:#C60;
+	text-decoration: underline;
+}
+a:visited {
+	color: #960;
+}
+
+div#breadcrumb {
+	margin: 2em 1em 2em 1em;
+}
+
+div#status_key { 
+	border: #036 solid 1px;
+	clear: both;
+	margin: 2em 1em 2em 1em;
+	overflow: hidden;
+	width: 98%;
+}
+div#status_key h3 {
+	color: #fff;
+	background-color:#036;
+	padding: .25em;
+	font-size:1.25em;
+}
+div#status_key h4 {
+	padding: .15em;
+	font-size: small;
+}
+div#status_key div {
+	float: left;
+	padding: .75em .75em .75em .75em;
+	width: 30%;
+}
+
+div#status_key dt {
+	clear: left;
+	display: block;
+	float: left;
+	padding: .5em;
+	width: 2em;
+}
+div#status_key dd {
+	display: block;
+	height: 20px;
+	padding:.5em;
+	font-weight:normal;
+}
+dt {
+	clear: left;
+	display: block;
+	float: left;
+	padding: .5em;
+	width: 11em;
+}
+dd {
+	display: block;
+	padding:.5em;
+	font-weight:bold;
+}
+table#project_info {
+	border-left: #036 solid 1px;
+	border-right: #036 solid 1px;
+	border-bottom: #036 solid 1px;
+	clear: both;
+	margin: 0 1em 2em 1em;
+}
+table ul {
+	list-style: none;
+}
+table#project_info thead th, table#project_info tfoot th {
+	background: #036;
+	color: #fff;
+	padding: .5em;
+	white-space: nowrap;
+}
+table#project_info tbody td, table#project_info tbody th {
+	color:#333;
+	padding: .75em .5em;
+}
+table#project_info tbody th {
+	border-right: #036 solid 1px;
+}
+table#project_info tbody tr.section_head th {
+	background-color:#36c;
+	border-bottom: #036 solid 1px;
+	border-top: #036 solid 1px;
+	color:#fff;
+}
+
+table#project_info tbody tr.section_head a{
+	color:#fff;
+}
+
+tbody tr.odd td, tbody tr th.odd {
+     background:transparent url(images/row_color.png) repeat top left;
+}
+
+* html tbody tr.odd td, * html tbody tr.odd th {
+     background:#036;
+     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(
+          src=‘images/row_color.png’, sizingMethod=‘scale’);
+}
+#prod_projects {
+	background: #fff;
+}
+
+div.projectBox {
+	background-color:#E7EAEF;
+	border: 1px solid #003366;
+	clear: both;
+	margin: 2em 1em 0em 1em;
+	overflow: auto;
+	width: 98%;
+}
+
+div.projectBox span.boxNav{
+	margin: .75em 1em .25em .75em;
+	float:right;
+}
+
+div.projectBox  h4{
+	margin: .75em .75em .25em .75em;
+	font-size:1.25em;
+	float:left;
+}
+
+
+div.projectBox  div{
+	float: left;
+	margin: .75em .75em .25em .75em;
+	width: 26%;
+}
+
+div.projectBox  div.projectInfo {
+	float: left;
+	margin: .5em .75em .25em .75em;
+	width: 30%;
+	font-size:1.15em;
+}
+
+div.projectBox  div.firstDiv dt{
+	width:12em;
+}
+
+div.projectBox div.iterationTable {
+	float:right;
+	margin: 0em .5em 1em .5em;
+	width:65%;
+}
+
+#iTable {
+	background: #fff;
+	border: 1px solid #003366;
+}
+
+#iTable td, #iTable th{
+	padding: 4px 6px 4px 6px;
+}
+
+#iTable tbody td, #iTable thead th, #iTable tbody th{
+	border-bottom:1px solid #003366;
+}
+
+#iTable thead tr{
+	background-color: #003366;
+	color:#fff;
+}
+
+#iTable tbody th{
+	background-color:#f5f5f5;
+}
+
+div.statusBox {
+	background-color:#fefefe;
+	border: 1px solid #003366;
+	border-top:0px;
+	clear: both;
+	margin: 0em 1em 2em 1em;
+	overflow: auto;
+	width: 98%;
+}
+
+div.statusBox span.boxNav{
+	margin: .75em 1em .25em .75em;
+	float:right;
+}
+
+div.statusBox  h4{
+	margin: .75em .75em .25em .75em;
+	font-size:1.25em;
+	float:left;
+	width: 31%;
+}
+
+div.statusBox  div{
+	float: left;
+	margin: 0em .5em .75em .5em;
+	width: 9em;
+}
+
+div.statusBox div.statusTable {
+	padding: .75em .75em .75em .75em;
+}
+
+div.statusBox div.infoBox {
+	margin: .75em .75em .75em .75em;
+	font-size: 1.25em;
+	width:83%;
+}
+
+div.statusBox div.infoBox  h5{
+	font-size: 1em;
+	padding-bottom: .5em;
+	font-style: italic
+}
+
+div.statusBox div.infoBox  p{
+	margin-bottom: 1em;
+}
+
+span.green {
+	background:transparent url(images/green.png) top left no-repeat;
+	display: block;
+	font-size: 1px;
+	height: 0;
+	overflow: hidden;
+	padding: 20px 0 0 0;
+	width: 20px;
+	
+}
+span.yellow {
+	background:transparent url(images/yellow.png) top left no-repeat;
+	display: block;
+	font-size: 1px;
+	height: 0;
+	overflow: hidden;
+	padding: 20px 0 0 0;
+	width: 20px;
+	
+}
+span.red {
+	background:transparent url(images/red.png) top left no-repeat;
+	display: block;
+	font-size: 1px;
+	height: 0;
+	overflow: hidden;
+	padding: 20px 0 0 0;
+	width: 20px;
+	
+}
+span.unchanged {
+	background:transparent url(images/unchanged.png) top left no-repeat;
+	display: block;
+	font-size: 1px;
+	height: 0;
+	overflow: hidden;
+	padding: 20px 0 0 0;
+	width: 20px;
+}
+span.downgraded {
+	background:transparent url(images/downgraded.png) top left no-repeat;
+	display: block;
+	font-size: 1px;
+	height: 0;
+	overflow: hidden;
+	padding: 20px 0 0 0;
+	width: 20px;
+	
+}
+span.upgraded {
+	background:transparent url(images/upgraded.png) top left no-repeat;
+	display: block;
+	font-size: 1px;
+	height: 0;
+	overflow: hidden;
+	padding: 20px 0 0 0;
+	width: 20px;
+	
+}
+
+div.editBox {
+	background-color:#E7EAEF;
+	border: 1px solid #003366;
+	clear: both;
+	margin: .15em 1em 0em 1em;
+	overflow: auto;
+	width: 98%;
+	font-size:1.25em;
+}
+
+
+div.normal_form {padding: .5em;}
+div.normal_form div {clear: left;padding: .25em;width:95%;}
+div.normal_form div label {display: block;float: left;width: 15em;}
+div.normal_form div.specialIndent {clear: left;padding: .25em;margin-left:15.25em;}
+.hiddenLabel{position: absolute;left: -500px;top: -500px;}
+div.normal_form dl {margin:0 0 0 0em; padding:0 0 0 0em;}
+div.normal_form  dt  {clear: left;display: block;float: left;padding: .25em 0;width: 15em;}
+div.normal_form dd {display: block;padding: .25em 0;}
+div.normal_form div.checkbox {width:70%;background-color:#fff;border:1px solid #cccccc;}
+div.normal_form div.checkbox label {float:right;width:92%;padding: .25em .5em;position:relative;}
+.outercontent {background-color:#E6E6E6;border:1px solid #cccccc;border-top:0px;padding:10px;}
+.innercontent {background-color:#f5f5f5;border:1px solid #cccccc;margin:0em 0em .75em 0em;}
+.buttonlist  ul { list-style: none;margin: 0 2em 0 0em;padding: .45em .45em .45em .45em;text-align:right;}
+.buttonlist ul li {	display: inline;list-style: none;margin: 0 0em; 	padding: 0 .55em 0 0;white-space: nowrap;}
+.buttonlist ul li input{background-color:#f5f5f5;border:1px solid #003366;padding:.15em .5em .1em .5em;}
+.formheading {border:1px solid #cccccc;border-bottom:0px;background-color:#ccc;padding:4px;color:#000;}
+.buttontd {height:20px;background-color:#F5F5E9;border-color: #B3B3B3 #000000 #000000 #B3B3B3; border-style: solid; border-width: 1;}
